@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CorrectAnswerRate">
+
+    <TextView
+        android:id="@+id/t_headline_corr"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:text="@string/t_headline_corr_text"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/t_threetimetable_corr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/t_onetimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center"
+        android:text="@string/t_onetimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t_twotimetable_corr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <TextView
+        android:id="@+id/t_twotimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center"
+        android:text="@string/t_twotimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/t_threetimetable_corr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <TextView
+        android:id="@+id/t_threetimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:text="@string/t_threetimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <TextView
+        android:id="@+id/t_fourtimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:gravity="center"
+        android:text="@string/t_fourtimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/t_threetimetable_corr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <TextView
+        android:id="@+id/t_fivetimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:gravity="center"
+        android:text="@string/t_fivetimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/t_fourtimetable_corr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <TextView
+        android:id="@+id/t_sixtimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:gravity="center"
+        android:text="@string/t_sixtimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/t_seventimetable_corr"
+        app:layout_constraintTop_toBottomOf="@+id/t_threetimetable_corr" />
+
+    <TextView
+        android:id="@+id/t_seventimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="@string/t_seventimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/t_threetimetable_corr"
+        app:layout_constraintStart_toEndOf="@+id/t_onetimetable_corr"
+        app:layout_constraintTop_toBottomOf="@+id/t_threetimetable_corr" />
+
+    <TextView
+        android:id="@+id/t_eighttimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="@string/t_eighttimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/t_fourtimetable_corr"
+        app:layout_constraintStart_toStartOf="@+id/t_threetimetable_corr"
+        app:layout_constraintTop_toBottomOf="@+id/t_fourtimetable_corr" />
+
+    <TextView
+        android:id="@+id/t_ninetimetable_corr"
+        android:layout_width="70dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="@string/t_ninetimetable_corr_text"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/t_eighttimetable_corr"
+        app:layout_constraintTop_toBottomOf="@+id/t_threetimetable_corr" />
+
+    <Button
+        android:id="@+id/b_reset_corr"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/b_result_corr_text"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_seventimetable_corr"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/b_back_corr"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/b_back_corr_text"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_seventimetable_corr"
+        app:layout_constraintVertical_bias="0.7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
